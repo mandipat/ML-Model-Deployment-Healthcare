@@ -85,4 +85,23 @@ The final model was developed using the selected features and ensemble technique
   - **Recall**: 80%
   - **AUC**: 0.92
 
-To run the training process:
+---
+
+## Model Deployment on GCP using Vertex AI
+The trained model was deployed using **Google Cloud Platform (GCP) Vertex AI**, providing a scalable, production-ready environment for model inference.
+
+### **Deployment Steps**:
+1. **Model Packaging**:
+   - The trained model was exported as a `.joblib` file.
+   - The model file was uploaded to **Google Cloud Storage (GCS)** for use in Vertex AI.
+
+2. **Vertex AI Deployment**:
+   - Vertex AI was used to create an endpoint for model inference.
+   - Model versioning was implemented to allow for easy updates.
+
+3. **Airflow Integration**:
+   - **Apache Airflow** was used to automate the deployment pipeline.
+   - A DAG was created to handle periodic retraining, model deployment, and monitoring tasks.
+
+To deploy the model on GCP:
+
