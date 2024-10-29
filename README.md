@@ -1,4 +1,4 @@
-# Coronary Heart Disease Prediction Model
+# Breast Cancer Prediction Model
 
 ### Overview
 This project focuses on predicting the likelihood of **Coronary Heart Disease (CHD)** using a machine learning approach. The objective is to build a predictive model based on a dataset of medical and lifestyle factors and deploy the model to **Google Cloud Platform (GCP)** using **Vertex AI** with **Airflow** for orchestration. The project involves the following key steps:
