@@ -38,7 +38,7 @@ The final report and codebase document each step of the process, providing a com
   - Strong correlations were observed between `cholesterol`, `age`, and CHD occurrence.
   - Multicollinearity was handled by removing highly correlated features to avoid redundancy.
 
-For detailed analysis and visualizations, refer to the **EDA Notebook** [here](path_to_EDA_notebook.ipynb).
+For detailed analysis and visualizations, refer to the **EDA Notebook** [here]([path_to_EDA_notebook.ipynb](https://github.com/mandipat/ML-Model-Deployment-Healthcare/blob/main/Notebooks/EDA_for_CHD.ipynb)).
 
 ---
 
