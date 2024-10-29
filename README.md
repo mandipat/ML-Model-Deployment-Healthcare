@@ -42,6 +42,37 @@ For detailed analysis and visualizations, refer to the **EDA Notebook** [here](p
 
 ---
 
+## Addressing Class Imbalance in Coronary Heart Disease Prediction
+
+This section explains how class imbalance in the dataset was handled during the development of a predictive model for **Coronary Heart Disease (CHD)**. The dataset showed an imbalance, where instances of positive CHD cases were significantly lower than negative cases. To ensure the model's effectiveness, various oversampling techniques were applied.
+
+### Techniques Used to Handle Class Imbalance
+
+Several methods were explored to manage the imbalance and improve the model's ability to predict minority class (positive CHD cases):
+
+### 1. **Random Undersampling and SMOTE**
+- **Random Undersampling** (sampling_strategy=0.2) followed by **SMOTE** (Synthetic Minority Over-sampling Technique) was applied to balance the dataset by reducing the majority class and synthesizing new minority class examples.
+
+### 2. **Random Oversampling**
+- Randomly duplicated data points in the minority class to match the number of examples in the majority class.
+
+### 3. **SMOTE**
+- SMOTE generated synthetic samples of the minority class by interpolating between existing minority class instances.
+
+### 4. **BorderlineSMOTE**
+- This variant of SMOTE focused on generating synthetic samples near the decision boundary (borderline instances) to improve the classifier’s ability to distinguish between classes.
+
+### 5. **SVM SMOTE**
+- **SVM SMOTE** used support vector machines to guide the generation of synthetic examples, aiming to improve the separation between classes.
+
+### 6. **K-Means SMOTE**
+- A variation of SMOTE that used **K-Means clustering** to create synthetic instances, helping to avoid noise and outliers when generating new samples.
+
+### Conclusion
+
+Handling class imbalance is crucial in developing effective predictive models, especially when dealing with highly imbalanced datasets like those used for predicting coronary heart disease. In this project, **BorderlineSMOTE** proved to be the most effective oversampling technique, offering a good balance between improving model recall and avoiding overfitting.
+
+---
 ## Feature Selection
 Feature selection was performed to improve model performance by focusing on the most predictive variables.
 
@@ -103,5 +134,4 @@ The trained model was deployed using **Google Cloud Platform (GCP) Vertex AI**, 
    - **Apache Airflow** was used to automate the deployment pipeline.
    - A DAG was created to handle periodic retraining, model deployment, and monitoring tasks.
 
-To deploy the model on GCP:
 
