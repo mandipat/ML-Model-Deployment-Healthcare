@@ -84,7 +84,7 @@ Feature selection was performed to improve model performance by focusing on the 
 Key features selected for the final model:
 - `age`, `cholesterol`, `blood_pressure`, `smoking_status`, `exercise_frequency`, `family_history`.
 
-For the complete code and process, refer to the **Feature Selection Notebook** [here](path_to_feature_selection_notebook.ipynb).
+For the complete code and process, refer to the **Feature Selection Notebook** [here](https://github.com/mandipat/ML-Model-Deployment-Healthcare/blob/main/Notebooks/Data_Preprocessing_.ipynb).
 
 ---
 
