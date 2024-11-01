@@ -11,10 +11,10 @@ Each project has a detailed description available in the respective project fold
 ## Repository Structure
 
 ```bash
-├── README.md                          # This file
+├── README.md                           # This file
 ├── breast_cancer_prediction/           # Folder for breast cancer prediction project
 │   ├── Breast_Cancer_pipeline.py       # Main script for breast cancer pipeline
-│   ├── breast_cancer_pipeline.ipynb  # Jupyter notebooks for experiment tracking
+│   ├── breast_cancer_pipeline.ipynb    # Jupyter notebooks for experiment tracking
 │   └── breast_cancer_README.md         # Detailed description of Breast Cancer project
 ├── chd_prediction/                     # Folder for coronary heart disease prediction project
 │   ├── CHD_Inference pipeline.py       # Main script for CHD prediction pipeline
