@@ -4,7 +4,7 @@
 
 This repository contains two end-to-end machine learning projects focused on health prediction: **Breast Cancer Prediction** and **Coronary Heart Disease (CHD) Prediction**. Both projects use machine learning pipelines to automate key tasks such as data preprocessing, model training, evaluation, and deployment. The pipelines are deployed on **Google Cloud Platform (GCP)** using **Vertex AI**, with **Apache Airflow** used to automate the workflow.
 
-Each project has a detailed description available in the respective project folders. The pipelines are scalable and ready for production use in healthcare prediction tasks.
+Each project has a detailed description available in the respective project folders.
 
 ---
 
