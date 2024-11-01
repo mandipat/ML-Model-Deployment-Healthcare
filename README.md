@@ -17,16 +17,16 @@ Each project has a detailed description available in the respective project fold
 │   ├── breast_cancer_pipeline.ipynb  # Jupyter notebooks for experiment tracking
 │   └── breast_cancer_README.md         # Detailed description of Breast Cancer project
 ├── chd_prediction/                     # Folder for coronary heart disease prediction project
-│   ├── CHD_pipeline.py                 # Main script for CHD prediction pipeline
-│   ├── vertex_ai_deployment.py         # Deployment to GCP Vertex AI
-│   ├── airflow_dag.py                  # Airflow DAG to automate pipeline
+│   ├── CHD_Inference pipeline.py       # Main script for CHD prediction pipeline
+│   ├── CHD_vertex_ai_deployment.py     # Deployment to GCP Vertex AI
+│   ├── CHD_model_train_eval            # Python notebook for Evaluation
 │   └── notebooks/                      # Jupyter notebooks for experiment tracking
-│       └── chd_pipeline.ipynb
+│       └── Data_Preprocessing.ipynb
+│       └── EDA for CHD.ipynb
 │   └── chd_README.md                   # Detailed description of CHD prediction project
 ├── data/                               # Datasets used in both projects
 │   ├── breast_cancer_data.csv          # Breast cancer dataset
 │   ├── chd_data.csv                    # CHD prediction dataset
-├── requirements.txt                    # Dependencies for both projects
 ```
 
 # Projects Overview
