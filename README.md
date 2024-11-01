@@ -36,14 +36,14 @@ Each project has a detailed description available in the respective project fold
 - **Model**: Logistic Regression
 - **Deployment**: The model is deployed on Google Cloud Vertex AI.
 - **Automation**: The pipeline is automated using Apache Airflow.  
-For detailed information about this project, including key steps and results, please refer to the [https://github.com/mandipat/ML-Model-Deployment-Healthcare/blob/main/Breast_Cancer%20Prediction/Breast%20Cancer%20Prediction_README.md](#).
+For detailed information about this project, including key steps and results, please refer to the [Breast_Cancer_Readme](https://github.com/mandipat/ML-Model-Deployment-Healthcare/blob/main/Breast_Cancer%20Prediction/Breast%20Cancer%20Prediction_README.md)).
 
 ## 2. Coronary Heart Disease (CHD) Prediction Pipeline
 - **Objective**: Predict the likelihood of developing coronary heart disease within 10 years based on demographic and medical data.
 - **Model**: Ensemble methods such as Random Forest and Gradient Boosting Machines.
 - **Deployment**: The model is deployed on Google Cloud Vertex AI.
 - **Automation**: The pipeline is automated using Apache Airflow.  
-For detailed information about this project, including key steps and results, please refer to the [https://github.com/mandipat/ML-Model-Deployment-Healthcare/blob/main/CHD_Prediction/CHD%20Prediction_README.md](#).
+For detailed information about this project, including key steps and results, please refer to the [CHD_Readme](https://github.com/mandipat/ML-Model-Deployment-Healthcare/blob/main/CHD_Prediction/CHD%20Prediction_README.md).
 
 # Deployment and Automation with Apache Airflow
 Both projects leverage Google Cloud Vertex AI for deploying models in a scalable and production-ready manner. Apache Airflow is used to automate key tasks such as data preprocessing, model training, and deployment.
