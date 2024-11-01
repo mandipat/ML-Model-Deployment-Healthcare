@@ -22,7 +22,7 @@ Each project has a detailed description available in the respective project fold
 │   ├── CHD_model_train_eval            # Python notebook for Evaluation
 │   └── notebooks/                      # Jupyter notebooks for experiment tracking
 │       └── Data_Preprocessing.ipynb
-│       └── EDA for CHD.ipynb
+│       └── EDA_CHD.ipynb
 │   └── chd_README.md                   # Detailed description of CHD prediction project
 ├── data/                               # Datasets used in both projects
 │   ├── breast_cancer_data.csv          # Breast cancer dataset
